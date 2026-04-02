@@ -28,6 +28,9 @@
     transform: translate(0, 1em);
   }
 }
+i {
+  width: 150px;
+}
 span {
   position: relative;
   left: 2px;
@@ -66,8 +69,14 @@ main {
 }
 
 #testoAlternato {
-  border: black solid 2px;
+  color: white;
+  background: linear-gradient(0deg, violet, rgb(0, 0, 171));
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  border: rgb(130, 130, 130) solid 2px;
   border-radius: 8px;
-  width: 400px;
-  height: 150px;
+  width: 575px;
+  height: 122px;
 }
